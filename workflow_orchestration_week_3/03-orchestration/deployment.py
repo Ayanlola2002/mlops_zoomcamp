@@ -6,5 +6,5 @@ DeploymentSpec(
     name="cron-schedule-deployment-daniel",
     flow_location="/home/ubuntu/mlops-zoomcamp/03-orchestration/homework.py",
     schedule=CronSchedule(cron="0 9 15 * *"),
-    tags=['flow_test_daniel_cron']
+    tags=['flow_test_tuna_cron']
 )
