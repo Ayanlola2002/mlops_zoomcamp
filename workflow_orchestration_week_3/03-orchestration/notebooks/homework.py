@@ -80,8 +80,7 @@ def get_paths(date):
         train_date = (new_date-relativedelta(months=2)).strftime(date_format)
         val_date = (new_date-relativedelta(months=1)).strftime(date_format)
 
-    # logger.info(f"Train date is {train_date}")
-    # logger.info(f"Val date is {val_date}")
+   
 
     train_path = f"{path}_{train_date}.parquet"
     val_path = f"{path}_{val_date}.parquet"
