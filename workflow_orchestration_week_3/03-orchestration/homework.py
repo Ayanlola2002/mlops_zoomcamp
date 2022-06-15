@@ -95,7 +95,7 @@ def get_paths(date):
 
 
 @flow(task_runner=SequentialTaskRunner())
-def main(date=None):
+def main(date):
 
     categorical = ['PUlocationID', 'DOlocationID']
 
