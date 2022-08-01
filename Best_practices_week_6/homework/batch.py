@@ -24,8 +24,8 @@ def prepare_data(df, categorical):
     return df
 
 def main(year, month):
-    #input_file = f'/home/frauke/ml-ops-zoomcamp/data/fhv_tripdata_{year:04d}-{month:02d}.parquet'
-    #output_file = f'/home/frauke/ml-ops-zoomcamp/output/predictions_fhv_tripdata_year={year:04d}_month={month:02d}.parquet'
+    #input_file = f'/home/ayanlola/ml-ops-zoomcamp/data/fhv_tripdata_{year:04d}-{month:02d}.parquet'
+    #output_file = f'/home/ayanlola/ml-ops-zoomcamp/output/predictions_fhv_tripdata_year={year:04d}_month={month:02d}.parquet'
     input_file = f'https://raw.githubusercontent.com/alexeygrigorev/datasets/master/nyc-tlc/fhv/fhv_tripdata_{year:04d}-{month:02d}.parquet'
     output_file = f's3://nyc-duration-prediction-alexey/taxi_type=fhv/year={year:04d}/month={month:02d}/predictions.parquet'
 

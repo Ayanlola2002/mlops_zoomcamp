@@ -12,5 +12,5 @@ flavors:
     sklearn_version: 1.0.2
 mlflow_version: 1.26.1
 model_uuid: 78edf19ceea5463aadce7d84f3f9bc82
-run_id: e1efc53e9bd149078b0c12aeaa6365df
+run_id: e1efc53e9bd149078b0c12aeaa6365dr
 utc_time_created: '2022-06-01 12:49:55.846831'

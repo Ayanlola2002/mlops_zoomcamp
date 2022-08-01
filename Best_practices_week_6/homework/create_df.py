@@ -15,7 +15,7 @@ data = [
 
 columns = ['PUlocationID', 'DOlocationID', 'pickup_datetime', 'dropOff_datetime']
 df = pd.DataFrame(data, columns=columns)
-input_file = '/home/frauke/ml-ops-zoomcamp/data/test_input.parquet'
+input_file = '/home/ayanlola/ml-ops-zoomcamp/data/test_input.parquet'
 
 options = {
     'client_kwargs': {
